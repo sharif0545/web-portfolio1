@@ -1,20 +1,93 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300;400;500&display=swap');
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
 }
-h1 > span{
-    color: coral;
+.orange-color{
+    color: orange;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: dimgray;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    padding-top: 3%;
+    padding: 0 3%;
 }
 .half-width img{
     width: 100%;
+}
+section{
+    height: 550px;
+    padding: 50px 0;
+}
+.top-section{
+   background-image: url('../images/Backgorund/top-banner.png');
+   background-repeat: no-repeat;
+}
+.link-btn{
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #ff9100, #ffd000);
+    border: 1px solid burlywood;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.dream-area{
+    background: url('../images/Backgorund/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area img{
+    width: 90%;
+}
+
+.experience-area h2{
+   
+}
+h2.experience{
+    font-size: 28px;
+    padding-left: 20px;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 40px;
+    height: 50%;
+    padding: 20px 30px;
+}
+.experience-area{
+    background: url('../images/Backgorund/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+   border-image-slice: 1;
+   }
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, lightblue);
+    border-image-slice: 1;
+  }
+
+.copy-right{
+    text-align: center;
+
 }
